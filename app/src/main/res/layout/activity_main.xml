@@ -7,12 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/flashcard_question"
+        android:id="@+id/flashcardquestion"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="When did Queen Elizabeth died?"
         android:textSize="55sp"
+        android:text="When did Queen Elizabeth died?"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="71dp" />
 
@@ -20,9 +20,18 @@
         android:id="@+id/answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:text="September 2022"
         android:textSize="60sp"
-        android:gravity="center"
         android:visibility="invisible"
-        android:text="September 2022" />
+        android:gravity="center" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/ic_baseline_add_circle_outline_24" />
 </RelativeLayout>
